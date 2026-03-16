@@ -1,0 +1,71 @@
+/******* Desktop *******/
+@media (min-width: 1000px) {
+  main {
+    max-width: 1280px;
+  }
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 1rem;
+  }
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+  }
+
+  img.portraet {
+    max-height: 470px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .portraet main {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  header div.registrer_btn {
+    display: block !important;
+  }
+  nav .search {
+    display: block !important;
+  }
+
+  header {
+    justify-content: space-between !important;
+  }
+}
+@media (max-width: 1000px) {
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .citat-grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+}
